@@ -157,7 +157,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
 
 
 // Import Data
-d3.csv("assets/data/data.csv").then(function (healthData) {
+d3.csv("StarterCode/assets/data/data.csv").then(function (healthData) {
 
     // Step 1: Parse Data/Cast as numbers
     // ==============================
